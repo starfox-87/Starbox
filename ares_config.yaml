@@ -1,0 +1,14 @@
+# Ares Configuration Templates
+
+# Basic Configuration
+template_name: default
+
+# Ares Module Settings
+module_settings:
+  setting_1: value_1
+  setting_2: value_2
+
+# Enable/Disable Features
+enable_features:
+  feature_1: true
+  feature_2: false
