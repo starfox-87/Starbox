@@ -1,6 +1,5 @@
 # Ares Configuration Templates
 
-# Basic Configuration
 template_name: default
 
 # Ares Module Settings
@@ -12,3 +11,27 @@ module_settings:
 enable_features:
   feature_1: true
   feature_2: false
+
+# Phase 4 - Full Scout Bot AI
+scout_bot:
+  codename: Kip
+  phase: 4
+  real_time_analysis: true
+  mobility_logic: true
+  on_device_model: true
+  safety_systems:
+    enforce_adventure_below_risk_threshold: true
+    minimum_battery_pct: 20
+    minimum_obstacle_distance_m: 0.75
+  autonomous_exploration_behaviors:
+    - frontier_scan
+    - sample_target_investigation
+    - cautious_terrain_advance
+
+# Notes for Future Development
+future_development_notes:
+  - Kip's personality should remain consistent across modules.
+  - Adventure logic should never override safety.
+  - Scientific accuracy should be prioritized.
+  - Humor and charm should be subtle, not overwhelming.
+  - Keep everything modular for easy expansion.
